@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    height: 64px;
+    width: 100%;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.4);
+    display: inline-flex;
+    flex-direction: row nowrap;
+    position: fixed;
+}
+
+.homebtn {
+    background-color: transparent;
+    border: none;
+}
+
+.homebtn:hover {
+    cursor: pointer;
+}
+
+.navimg {
+    max-height: 64px;
+    padding: 7px;
+    
+}
+
+.navlinks {
+    width: 100%;
+    text-align: right;
+}
+
+.navlinks a {
+    color: black;
+    text-decoration: none;
+}
+
+.navlinks a:hover {
+    cursor: pointer;
+}
+
+#bookbtn {
+    
+}
+
+#bookbtn:hover {
+   cursor: pointer; 
+}
